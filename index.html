@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en" class="bg-light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!--Barra de Navegación Superior---------------------------------------->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-briefcase-fill"
+            viewBox="0 0 16 16">
+            <path
+                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z" />
+            <path
+                d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z" />
+        </svg>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#formacion">Formación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Primera sección------------------------------------------------------------>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center ">
+            <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12  " id="barra_lateral_1">
+                <img class="img-responsive" src="assets/img/profile.jpg" alt="profile" id="foto_perfil">
+
+                <br><br>
+                <hr class="linea m-3 " />
+                <br>
+                <h5 class="text-muted font-italic-light"><strong> Sobre mi:</strong></h5>
+                <p class="text text-muted ">
+                    Soy una persona proactiva, que busca el
+                    constante aprendizaje, para crecer en el
+                    ámbito profesional y empresarial.
+                    Luego de desarrollarme profesionalmente
+                    en el campo de la administración,
+                    contabilidad y finanzas, he decidido realizar
+                    un cambio de carrera y de vocación.
+                    Mi nuevo objetivo es el aprendizaje en el
+                    campo de la programación, para poder
+                    insertarme en el mercado laboral IT.
+                </p>
+
+                <hr class="linea m-3 " />
+
+                <h5 class="text-muted font-italic-light"><strong> Intereses:</strong></h5>
+                <p class="text text-muted ">
+                    Senderismo, música, lógica, lectura,
+                    aprendizaje autodidacta e
+                    instrumentos de percusión
+                </p>
+
+                <hr class="linea m-3 " />
+            </div>
+
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 bg-light" id="home">
+                <div class="titulo1">
+                    <h1 class="mb-0" id="nombre1">
+                        Javier
+                        <span class="text-primary"><b>López</b> </span>
+                    </h1>
+                    <h3 class="mb-0" id="nombre2"><i>Trainee Developer</i></h3>
+                    <hr class="linea1 m-3 " />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Segunda sección------------------------------------------------------------>
+    <div class="container-fluid" id="secciones">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-xl-2 col-lg-2 col-md-0 col-sm-0 " id="barra_lateral_2">
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 bg-light " id="formacion">
+                <div class="titulo2">
+                    <h1 class="display-1 text-danger">Formación</h1>
+                    <hr class="linea m-3 " />
+                </div>
+                <br><br>
+                <!--Subdivisión 1--------------------------------------------------->
+                <h2 class="display-4 text-secondary posicion"><span><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                            height="25" fill="currentColor" class="bi bi-diamond" viewBox="0 0 16 16">
+                            <path
+                                d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z" />
+                        </svg></span> Estudios</h2>
+                <br>
+                <div class="row justify-content-center align-items-center posicion">
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 bg-light">
+                        <div class="media borde">
+                            <img src="assets/img/IUA.jpg" class="mr-3" alt="UNDEF">
+                            <div class="media-body">
+                                <h5 class="mt-1"><b>Licenciatura en Administración</b></h5>
+                                <h5><i>Universidad de la Defensa Nacional</i></h5>
+                                <p>Degree</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 align-self-start bg-light titulo3">
+                        <ul class="list-group list-group-flush ">
+                            <li class="list-group-item bg-light "><b><i>2010 - 2016</i> </b> </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <br><br><br>
+                <!-------------------------------------------->
+                <div class="row justify-content-center align-items-center posicion">
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 bg-light">
+                        <div class="media borde">
+                            <img src="assets/img/UTN.jpg" class="mr-3" alt="UTN" width="150px">
+                            <div class="media-body">
+                                <h5 class="mt-1"><b> Tecnicatura Universitaria en Programación</b></h5>
+                                <h5><i>Universidad Tecnológica Nacional</i></h5>
+                                <p>Technique</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 align-self-start bg-light titulo3">
+                        <ul class="list-group list-group-flush ">
+                            <li class="list-group-item bg-light "><b><i>2021 - Actual</i> </b> </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <br><br><br>
+                <!-------------------------------------------->
+                <div class="row justify-content-center align-items-center posicion">
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 bg-light">
+                        <div class="media borde">
+                            <img src="assets/img/CEDI.jpg" class="mr-3" alt="UTN" width="150px">
+                            <div class="media-body">
+                                <h5 class="mt-1"><b> MS Excel 2010 Avanzado, 16 Hs. Cátedras</b></h5>
+                                <h5><i>CEDI Consulting&Training</i></h5>
+                                <p>Course</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 align-self-start bg-light titulo3">
+                        <ul class="list-group list-group-flush ">
+                            <li class="list-group-item bg-light "><b><i>2016 -</i> </b> </li>
+                        </ul>
+                    </div>
+                </div>
+                <br><br><br><br><br>
+
+                <!--Subdivisión 2-------------------------------------------------->
+                <div class="row justify-content-center align-items-center posicion ">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 bg-light ">
+                        <h2 class="display-4 text-secondary "><span><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                                    height="25" fill="currentColor" class="bi bi-diamond" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z" />
+                                </svg></span> Idiomas</h2><br>
+                        <ul class="list-group subsec1 posicion">
+                            <li class="list-group-item sombra"><span><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                        height="16" fill="currentColor" class="bi bi-caret-right-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                    </svg></span> Español - Nativo </li>
+                            <li class="list-group-item sombra"><span><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                        height="16" fill="currentColor" class="bi bi-caret-right-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                    </svg></span> Inglés - Intermedio</li>
+                        </ul>
+                    </div>
+                    <!--------------------------------------------->
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 bg-light separador ">
+                        <h2 class="display-4 text-secondary "><span><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                                    height="25" fill="currentColor" class="bi bi-diamond" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z" />
+                                </svg></span> Habilidades</h2><br>
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 posicion">
+                                <ul class="list-group subsec1">
+                                    <li class="list-group-item sombra">
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                                            </svg></span> Trabajo bajo presión
+                                    </li>
+                                    <li class="list-group-item sombra">
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                                            </svg></span> Perfil Analítico
+                                    </li>
+                                    <li class="list-group-item sombra">
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                                            </svg></span> Proactivo
+                                    </li>
+                                    <li class="list-group-item sombra">
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                                            </svg></span> Cordial y positivo
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 posicion">
+                                <ul class="list-group subsec1">
+                                    <li class="list-group-item sombra">
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                                            </svg></span> Orientado a Objetivos
+                                    </li>
+                                    <li class="list-group-item sombra">
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                                            </svg></span> Aprendizaje Cte.
+                                    </li>
+                                    <li class="list-group-item sombra">
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                                            </svg></span> Teamwork
+                                    </li>
+                                    <li class="list-group-item sombra">
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                                            </svg></span> Organizado
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+                <!--Subdivisión 3-------------------------------------------------->
+                <h2 class="display-4 text-secondary posicion"><span><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                            height="25" fill="currentColor" class="bi bi-diamond" viewBox="0 0 16 16">
+                            <path
+                                d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z" />
+                        </svg></span> Conocimientos</h2><br><br>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-5 col-lg-5 col-md-8 col-sm-12 posicion">
+                        <ul class="list-unstyled">
+                            <li class="media my-3 borde2">
+                                <img src="assets/img/icons/javascript.png" class="mr-3" alt="JS">
+                                <div class="media-body">
+                                    <br>
+                                    <h4 class="mt-0 mb-1">Javascript</h4>
+                                    <div class="progress barra">
+                                        <div class="progress-bar" role="progressbar" style="width: 40%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </li><br>
+                            <li class="media my-3 borde2">
+                                <img src="assets/img/icons/html5.png" class="mr-3" alt="HTML">
+                                <div class="media-body">
+                                    <br>
+                                    <h4 class="mt-0 mb-1">Html 5</h4>
+                                    <div class="progress barra">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </li><br>
+                            <li class="media my-3 borde2">
+                                <img src="assets/img/icons/css3.png" class="mr-3" alt="CSS">
+                                <div class="media-body">
+                                    <br>
+                                    <h4 class="mt-0 mb-1">CSS 3</h4>
+                                    <div class="progress barra">
+                                        <div class="progress-bar" role="progressbar" style="width: 40%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </li><br>
+                            <li class="media my-3 borde2">
+                                <img src="assets/img/icons/bootstrap.jpg" class="mr-3" alt="Bootstrap">
+                                <div class="media-body">
+                                    <br>
+                                    <h4 class="mt-0 mb-1">Bootstrap</h4>
+                                    <div class="progress barra">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </li><br>
+                        </ul>
+                        <!---------------------->
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-8 col-sm-12 posicion">
+                        <ul class="list-unstyled">
+                            <li class="media my-3 borde2">
+                                <img src="assets/img/icons/sql.png" class="mr-3" alt="SQL">
+                                <div class="media-body">
+                                    <br>
+                                    <h4 class="mt-0 mb-1">Base de Datos SQL</h4>
+                                    <div class="progress barra">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </li><br>
+                            <li class="media my-3 borde2">
+                                <img src="assets/img/icons/csharp.png" class="mr-3" alt="C#">
+                                <div class="media-body">
+                                    <br>
+                                    <h4 class="mt-0 mb-1">C# .NET</h4>
+                                    <div class="progress barra">
+                                        <div class="progress-bar" role="progressbar" style="width: 40%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </li><br>
+                            <li class="media my-3 borde2">
+                                <img src="assets/img/icons/java.png" class="mr-3" alt="Java">
+                                <div class="media-body">
+                                    <br>
+                                    <h4 class="mt-0 mb-1">Java</h4>
+                                    <div class="progress barra">
+                                        <div class="progress-bar" role="progressbar" style="width: 20%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </li><br>
+                            <li class="media my-3 borde2">
+                                <img src="assets/img/icons/mongo.jpg" class="mr-3" alt="Mongo">
+                                <div class="media-body">
+                                    <br>
+                                    <h4 class="mt-0 mb-1">Mongo DB</h4>
+                                    <div class="progress barra">
+                                        <div class="progress-bar" role="progressbar" style="width: 20%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </li><br>
+                        </ul>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------->
+                <br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+    <!--Tercera sección------------------------------------------------------------>
+    <div class="container-fluid" id="secciones">
+        <div class="row justify-content-center align-items-center ">
+            <div class="col-xl-2 col-lg-2 col-md-0 col-sm-0 " id="barra_lateral_2">
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 bg-light" id="proyectos">
+                <div class="titulo2">
+                    <h1 class="display-1 text-success">Proyectos</h1>
+                    <hr class="linea m-3" />
+                </div>
+                <br><br><br><br>
+                <div class="row justify-content-center align-items-center posicion">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 top">
+                        <h3 class="titulo4 posicion borde3">ABM - WinForms</h3>
+                        <div class="card posicion efecto1 bg-light">
+                            <img src="assets/img/Proy1/Csharp.jpg" class="card-img-top" alt="Proyecto"
+                                style="border-radius:50%;" id="imag">
+                            <div class="card-body">
+                                <p class="card-text tarjeta">Implementación de un Maestro/Detalle AMB Transaction para
+                                    cuentas bancarias.
+                                    Entorno visual Winforms, Web API Rest y BD SQL Server. <br>
+                                    Se utilizó programación en 4 capas con patrones de diseño para una estructura
+                                    Cliente/Servidor. <br>
+                                    La app cuenta además con un sistema de Reportes.
+                                </p>
+                            </div>
+                        </div><br>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary posicion" data-toggle="modal"
+                            data-target="#exampleModal">
+                            Visualizar
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Proyecto ABM - WinForms</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Carousel -->
+                                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="assets/img/Proy1/Login.jpg" class="d-block w-100" alt="Login">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/img/Proy1/Home.jpg" class="d-block w-100" alt="Home">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/img/Proy1/Carga.jpg" class="d-block w-100" alt="Carga">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/img/Proy1/Repo.jpg" class="d-block w-100" alt="Reporte">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/img/Proy1/Repo2.jpg" class="d-block w-100" alt="Reporte">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/img/Proy1/Base.jpg" class="d-block w-100" alt="BD">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-target="#carouselExampleControls" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-target="#carouselExampleControls" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </button>
+                                        </div><br>
+                                        <p><span> C# - API Rest - DB SQL </span> <br> </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 top">
+                        <h3 class="titulo4  borde3">BD SQL - Tecnicatura</h3>
+                        <div class="card efecto1 bg-light">
+                            <img src="assets/img/Proy2/SQLServer.jpg" class="card-img-top" alt="Proyecto"
+                                style="border-radius:50%" id="imag2">
+                            <div class="card-body">
+                                <p class="card-text tarjeta">Diseño de una Base de Datos con modelo relacional, sobre un
+                                    Sistema Académico de Tecnicaturas.
+                                    Visualización de consultas por medio de entorno visual elaborado con Winforms. <br>
+                                    Implementación de Procedimientos Almacenados, Funciones, Triggers y manejo de
+                                    errores. </p>
+                            </div>
+                        </div><br>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                            Visualizar
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Proyecto BD - Tecnicatura</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Carousel -->
+                                        <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="assets/img/Proy2/modelo.jpg" class="d-block w-100" alt="Modelo">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/img/Proy2/principal.jpg" class="d-block w-100"
+                                                        alt="Principal">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/img/Proy2/consulta.jpg" class="d-block w-100"
+                                                        alt="Consulta">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-target="#carouselExampleControls1" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-target="#carouselExampleControls1" data-slide="next">
+                                                <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </button>
+                                        </div><br>
+                                        <p><span> Base de Datos Relacional - SQL Server </span> <br>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Cuarta sección------------------------------------------------------------>
+    <div class="container-fluid" id="secciones">
+        <div class="row justify-content-center align-items-center ">
+            <div class="col-xl-2 col-lg-2 col-md-0 col-sm-0 " id="barra_lateral_2">
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 bg-light" id="experiencia">
+                <br><br><br>
+                <div class="titulo2">
+                    <h1 class="display-1 text-warning">Experiencia</h1>
+                    <hr class="linea m-3 " />
+                </div><br><br><br><br><br>
+                <!---Sub div 1----------------------------------->
+                <div class="row justify-content-center align-items-center ">
+                    <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+                        <div class="media posicion2" id="trabajo1">
+                            <img src="assets/img/holcim.jpg" class="align-self-start mr-3" alt="Holcim">
+                            <div class="media-body">
+                                <h4 class="mt-0"><b> Holcim (Argentina) S.A.</b></h4>
+                                <h5><i>Administrativo de Facturación</i></h5><br>
+                                <h6>Córdoba, Argentina</h6>
+                            </div>
+                        </div>
+                        <ul class="despliegue" id="efecto1">
+                            <li>Digitalización, control y carga de facturación de proveedores.</li>
+                            <li>Elaboración de reportes, informes, instructivos e indicadores de gestión.</li>
+                            <li>Gestión de archivos, documentación, cajas chicas y gastos de tarjetas corporativas.</li>
+                            <li>Asesoramiento y atención a proveedores. Seguimiento, control y conciliación de cuentas
+                                de acreedores.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 align-self-start">
+                        <h6 class="posicion titulo5"><b><i>2013 - 2018</i> </b></h6>
+                    </div>
+                </div>
+                <!---sub div 2----------------------------------->
+                <br><br><br>
+                <div class="row justify-content-center align-items-center ">
+                    <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+                        <div class="media posicion2" id="trabajo2">
+                            <img src="assets/img/practico.jpg" class="align-self-start mr-3" alt="El Practico">
+                            <div class="media-body">
+                                <h4 class="mt-0"><b> El Practico S.A.</b></h4>
+                                <h5><i>Analista Contable</i></h5><br>
+                                <h6>Córdoba, Argentina</h6>
+                            </div>
+                        </div>
+                        <ul class="despliegue" id="efecto2">
+                            <li>Registración, Control y Conciliación de cuentas contables.</li>
+                            <li>Seguimiento y control de cuentas corrientes de proveedores, deudores, ingresos, egresos
+                                e impositivas.</li>
+                            <li>Registro de Facturación, movimientos bancarios e impositivos, Ordenes de Pago.</li>
+                            <li>Atención a proveedores, conciliación de cuentas ctes. Control de entregas.</li>
+                            <li>Elaboración de Reportes e Informes sobre consumo de servicios varios.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 align-self-start ">
+                        <h6 class="posicion titulo5"><b><i>2018 - 2021</i> </b></h6>
+                    </div>
+                </div><br><br><br><br><br>
+                <!----------------------------------------------->
+            </div>
+        </div>
+    </div>
+    <!--Quinta sección------------------------------------------------------------>
+    <div class="container-fluid" id="secciones">
+        <div class="row justify-content-center align-items-center ">
+            <div class="col-xl-2 col-lg-2 col-md-0 col-sm-0  " id="barra_lateral_2">
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 bg-light" id="contacto">
+                <div class="titulo2">
+                    <h1 class="display-1 text-primary">Contacto</h1>
+                    <hr class="linea m-3 " /><br><br><br>
+                    <!--Sección links---------------------------->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-light iconos"><a href="#contacto"> <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                height="40" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                            </svg></a> <span><b> Correo:</b> javierl.lopez@hotmail.com</span> </li>
+                        <li class="list-group-item bg-light iconos"><a href="#contacto"> <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                            </svg></a><span><b> Whatsapp:</b> +54 0351-152040508</span></li>
+                        <li class="list-group-item bg-light iconos" id="aGitHub"><a href="http://github.com/JavierLopez-112704-2W2" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                            </svg></a><span><b> GitHub:</b> JavierLopez-112704-2W2</span></li>
+                        <li class="list-group-item bg-light iconos" id="aLinkedIn"><a href="http://linkedin.com/in/lopezjavier3088" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg></a><span><b> LinkedIn:</b> lopezjavier3088</span></li>
+                    </ul><br><br>
+                    <!--Sección mensaje---------------------------->
+                    <button type="button" class="btn btn-primary posicion" data-toggle="modal" data-target="#exampleModal3"
+                        data-whatever="@mdo">Enviar un mensaje</button>
+                    
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Nuevo Mensaje</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="recipient-name" class="col-form-label">Nombre: </label>
+                                            <input type="text" class="form-control" id="txtNombre">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="recipient-lastname" class="col-form-label">Apellido: </label>
+                                            <input type="text" class="form-control" id="txtApellido">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="recipient-mail" class="col-form-label">Correo: </label>
+                                            <input type="email" class="form-control" id="txtEmail">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message-text" class="col-form-label">Mensaje: </label>
+                                            <textarea class="form-control" id="txtBox"></textarea>
+                                        </div>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        <button type="submit" id="btnEnviar" class="btn btn-primary" >Enviar Mensaje</button>       
+                                    </form>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+                </div><br><br><br><br>
+            </div>
+        </div>
+    </div>
+    <!--Footer------------------------------------------------------------>
+    <blockquote class="blockquote text-center bg-dark" ">
+        <p class=" text-muted" id="footer">Proyecto de clase - Resume/Portfolio</p>
+        <p class="text-muted" id="footer">Programación III</p>
+        <footer class="blockquote-footer">UTN FRC - <cite title="Source Title">Todos los derechos reservados</cite>
+        </footer>
+    </blockquote>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

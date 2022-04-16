@@ -1,0 +1,232 @@
+html{
+    scroll-behavior: smooth;
+}
+#barra_lateral_1{
+    height: 150vh;
+    background-color: rgb(40, 43, 43);
+   /* border: 3px solid rgb(49, 49, 53); */
+   justify-content: center;
+   align-items: center;   
+}
+#home{
+    height: 150vh;
+    justify-content: center;
+    align-items: center; 
+}
+.titulo1{
+    margin-top: 30%;
+    margin-left: 10%;
+    animation: aparecer1 2s ease 1 backwards .5s;
+}
+#nombre1{
+    font-size: 100px;
+}
+#nombre2{
+    font-size: 40px;
+} 
+/*--------------------------------------------*/
+#estudios{   
+    justify-content: center;
+    align-items: center; 
+    /* border-top: 1px solid rgb(131, 128, 128); */
+}
+.titulo2{
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+
+#barra_lateral_2{
+    /* height: 150vh; */
+    background-color: rgb(40, 43, 43);
+   /* border: 3px solid rgb(49, 49, 53); */
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.subsec1{
+    height: 35vh;
+
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    margin-right: 0%;
+}
+.separador{
+    border-left: 1px solid gray;  
+}
+
+
+.sombra:hover{
+    background-color: rgb(200, 200, 204);
+    padding-left: 50px;
+}
+
+.barra{
+    margin-right: 30px;
+    border: 1px solid rgb(66, 64, 64);
+}
+
+.borde2{
+    box-shadow: 3px 3px 5px rgb(90, 87, 87);
+    margin-right: 50px;
+}
+.borde2:hover{
+    box-shadow: none;
+    margin-right: 45px;
+    border-right: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192);
+    
+}
+.borde3{
+    border-left: 1px solid rgb(44, 78, 45);
+    border-bottom: 1px solid rgb(44, 78, 45);
+    margin-right: 60px;
+}
+
+
+#secciones{
+    background-color: rgb(40, 43, 43);
+    
+    
+}
+.posicion{
+    margin-left: 5%;
+    
+}
+.posicion2{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-left: 1px solid rgb(151, 151, 22);
+    border-bottom: 1px solid rgb(151, 151, 22);
+    padding-left:5px;
+    padding-bottom: 5px;
+    
+}
+.despliegue{
+    margin-left: 150px;
+    list-style-type:circle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 16px;    
+    padding-top: 10px; 
+}
+
+#efecto1, #efecto2{
+    display: none;
+}
+
+
+.titulo3{
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    color: brown;
+       
+}
+
+.titulo4{
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: rgb(32, 85, 39); */
+    color:rgb(5, 78, 5);
+}
+.titulo5{
+    font-size: 20px;
+    color:rgb(151, 151, 22);
+}
+.borde{
+    border-left: 1px dashed brown;
+    border-bottom: 1px dashed brown
+}
+.borde:hover{
+    border-left: 2px solid brown;
+    border-bottom: 2px solid brown
+}
+
+.efecto1{
+    width: 26rem;
+    box-shadow: 3px 3px 5px rgb(90, 87, 87);
+    /* background-color: lightgray; */
+}
+.efecto1:hover{
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    border: 1px solid rgb(20, 20, 20);
+}
+
+.linea{
+    background-color:rgb(131, 128, 128);
+}
+.linea1{
+    background-color:rgb(131, 128, 128);
+    animation: aparecer2 2s ease 1 backwards .5s;
+}
+.top{
+    margin-top: 100px;
+}
+
+.tarjeta{
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.iconos{
+   padding: 2%; 
+   margin-right: 500px;
+   font-size: 17px;
+   font-family: Tahoma, Geneva, Verdana, sans-serif;
+   color: rgba(0, 0, 255, 0.663);
+     
+}
+.iconos:hover{
+    border-left: 1px solid rgb(111, 108, 108);
+    border-bottom: 1px solid rgb(111, 108, 108);
+    color: rgb(3, 3, 84);
+}
+
+
+#foto_perfil{
+    /* height: 220px;
+    width: 160px; */
+    border-radius: 50%;
+    border: 3px solid rgb(49, 49, 53);
+    
+    margin-left:30px;
+    margin-top: 60px;
+
+    max-width: 80%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+
+    /* animation: aparecer2 1.5s ease 1 backwards .5s; */
+}
+
+#footer {
+    margin: 0;
+    /* background-image: url(/img/prog.jpg); */
+    margin-right: 0;
+    padding-right:0;
+}
+
+
+
+@keyframes aparecer1{
+    from{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@keyframes aparecer2{
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);       
+    }
+}
